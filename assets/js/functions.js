@@ -54,6 +54,17 @@ $( document ).ready(function() {
   $('.cta').click(function(){
     var curActive = $('.side-nav').find('.is-active'),
         curPos = $('.side-nav').children().index(curActive),
+        lastItem = $('.side-nav').children().length - 4,
+        nextPos = lastItem;
+
+    updateNavs(nextPos);
+    updateContent(curPos, nextPos, lastItem);
+
+  });
+
+  $('.readingOutline').click(function(){
+    var curActive = $('.side-nav').find('.is-active'),
+        curPos = $('.side-nav').children().index(curActive),
         lastItem = $('.side-nav').children().length - 1,
         nextPos = lastItem;
 
