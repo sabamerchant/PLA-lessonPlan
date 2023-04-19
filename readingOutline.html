@@ -1,188 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Class Session 2</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-  
-    <!-- <script>
-        var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-                } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-            }
-    </script> -->
+  <head>
+    <title>Class Session 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta name="keywords" content="global, template, html, sass, jquery" />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
     <div class="perspective effect-rotate-left">
-      <div class="container"><div class="outer-nav--return"></div>
+      <div class="container">
+        <div class="outer-nav--return"></div>
         <div id="viewport" class="l-viewport">
           <div class="l-wrapper">
             <header class="header">
-                <a class="header--logo" href="#0">
-                  <img src="assets/img/logo.png" alt="Global">
-                  <p>Class Session 2</p>
-                </a>
-                <!-- <button class="header--cta cta">Hire Us</button>
-                <div class="header--nav-toggle">
-                  <span></span>
-                </div> -->
+              <a class="header--logo" href="#0">
+                <img src="assets/img/logo.png" alt="Global" />
+                <p>Class Session 2</p>
+              </a>
             </header>
             <ul class="l-main-content main-content">
               <li class="l-section section section--is-active">
-                <div style="margin-top: 8em;" class="wrapper">
-                  <div >
-                      <button style="cursor: pointer;
-                      border: none;
-                      background-color: transparent;
-                      font-size: 1.5em;
-                      "><a href="index.html" class="test" style="color: #0f33ff;">Back <span class="btn-background"></span></a>
-                      </button>
-                      <h1 style="margin-bottom: 0px;">How Does Students’ Prior Knowledge Affect Their Learning?</h1>
-                      <h3 style="margin-top: 0px;">Principle: Students ’ prior knowledge can help or hinder learning</h3>
+                <div style="margin-top: 8em" class="wrapper">
+                  <div>
+                    <button
+                      style="
+                        cursor: pointer;
+                        border: none;
+                        background-color: transparent;
+                        font-size: 1.5em;
+                      "
+                    >
+                      <a href="index.html" class="test" style="color: #0f33ff"
+                        >Back <span class="btn-background"></span
+                      ></a>
+                    </button>
+                    <h1 style="margin-bottom: 0px">
+                      How Does Students’ Prior Knowledge Affect Their Learning?
+                    </h1>
+                    <h3 style="margin-top: 0px">
+                      Principle: Students ’ prior knowledge can help or hinder
+                      learning
+                    </h3>
                   </div>
-                
-                  <div >
-                    
+                  <div>
                     <ul>
-                        <div id="myaccordion">
-                            <input type="checkbox" id="accordion10" class="hidecontent"/>
-                            <label for="accordion10" style="padding: 0px;"><li>DOES THE RESEARCH TELL US ABOUT PRIOR KNOWLEDGE?</li></label>
-                            <div class="content hidecontent" style="padding-top: 0px;">
-                              <ul>
-                                <p class="accordianInfo"><li>Numerous studies have demonstrated that connecting new knowledge to old increases the recall and retention of that information. However, creating these connections may not occur naturally, and as educators, it's our responsibility to assist students in capitalizing on their knowledge and experiences. The lack of connection between topics is particularly noticeable when transferring knowledge between different fields of study. For example, students may struggle to apply their knowledge of physics and/or chemistry to comprehend biological concepts.</li></p>
-                            
-                              </ul>
-                            </div>
-                        </div>
-                      
-                        <div id="myaccordion">
-                            <input type="checkbox" id="accordion1" class="hidecontent"/>
-                            <label for="accordion1">Activating Prior Knowledge</label>
-                            <div class="content hidecontent" style="padding-top: 0px;">
-                              <ul>
-                                <p class="accordianInfo"><li>Generation</li></p>
-                                <p class="accordianInfo"><li>Connect to other courses</li></p>
-                                <p class="accordianInfo"><li>Connect within your own course</li></p>
-                                <p class="accordianInfo"><li>Analogies & Examples</li></p>
-                              </ul>
-                            </div>
-                            <input type="checkbox" id="accordion2" class="hidecontent"/>
-                            <label for="accordion2">Accurate but Insufficient Prior Knowledge</label>
-                            <div class="content hidecontent" style="padding-top: 0px;">
-                              <ul>
-                                <p class="accordianInfo"><li>In order to find out what insufficient knowledge looks like, map out sufficient knowledges and identify knowledge gaps. </li></p>
-                              </ul>
-                            </div>
-                            <input type="checkbox" id="accordion3" class="hidecontent"/>
-                            <label for="accordion3">Inappropriate Prior Knowledge</label>
-                            <div class="content hidecontent" style="padding-top: 0px;">
-                              <ul>
-                                <p class="accordianInfo"><li>Some knowledge is not universal among fields.</li></p>
-                                <p class="accordianInfo"><li>For example, writing styles and rules are different between fields.</li></p>
-                              </ul>
-                            </div>
-                            <input type="checkbox" id="accordion4" class="hidecontent"/>
-                            <label for="accordion4">Inaccurate Prior Knowledge</label>
-                            <div class="content hidecontent" style="padding-top: 0px;">
-                              <ul>
-                                <p class="accordianInfo"><li>Content for Fourth Accordion.</li></p>
-                                <p class="accordianInfo"><li>Content for Fourth Accordion.</li></p>
-                              </ul>
-                            </div>
-                        </div>
-                      
-                      <br/>
                       <div id="myaccordion">
-                        <input type="checkbox" id="accordion11" class="hidecontent"/>
-                        <label for="accordion11" style="padding: 0px;"><li>WHAT STRATEGIES DOES THE RESEARCH SUGGEST?</li></label>
-                        <div class="content hidecontent" style="padding-top: 0px;">
+                        <input
+                          type="checkbox"
+                          id="accordion10"
+                          class="hidecontent"
+                        />
+                        <label for="accordion10" style="padding: 0px"
+                          ><li>
+                            DOES THE RESEARCH TELL US ABOUT PRIOR KNOWLEDGE?
+                          </li></label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
                           <ul>
-                            <p class="accordianInfo"><li>Mentioned Below</li></p>
-                        
+                            <p class="accordianInfo">
+                              <li>
+                                Numerous studies have demonstrated that
+                                connecting new knowledge to old increases the
+                                recall and retention of that information.
+                                However, creating these connections may not
+                                occur naturally, and as educators, it's our
+                                responsibility to assist students in
+                                capitalizing on their knowledge and experiences.
+                                The lack of connection between topics is
+                                particularly noticeable when transferring
+                                knowledge between different fields of study. For
+                                example, students may struggle to apply their
+                                knowledge of physics and/or chemistry to
+                                comprehend biological concepts.
+                              </li>
+                            </p>
                           </ul>
                         </div>
-                    </div>
-                        <div id="myaccordion">
-                          <input type="checkbox" id="accordion5" class="hidecontent"/>
-                          <label for="accordion5">Methods to Gauge the Extent and Nature of Students’ Prior Knowledge</label>
-                          <div class="content hidecontent" style="padding-top: 0px;">
-                            <ul>
-                              <p class="accordianInfo"><li>Talk to Colleagues</li></p>
-                              <p class="accordianInfo"><li>Administer a Diagnostic Assessment</li></p>
-                              <p class="accordianInfo"><li>Have Students Assess Their Own Prior Knowledge</li></p>
-                              <p class="accordianInfo"><li>Use Brainstorming to Reveal Prior Knowledge</li></p>
-                              <p class="accordianInfo"><li>Assign a Concept Map Activity</li></p>
-                              <p class="accordianInfo"><li>Look for Patterns of Error in Student Work</li></p>
-                            </ul>
-                          </div>
-                          <input type="checkbox" id="accordion6" class="hidecontent"/>
-                          <label for="accordion6">Methods to Activate Accurate Prior Knowledge</label>
-                          <div class="content hidecontent" style="padding-top: 0px;">
-                            <ul>
-                              <p class="accordianInfo"><li>Use Exercises to Generate Students’ Prior Knowledge</li></p>
-                              <p class="accordianInfo"><li>Explicitly Link New Material to Knowledge from Previous Courses</li></p>
-                              <p class="accordianInfo"><li>Explicitly Link New Material to Prior Knowledge from Your Own Course</li></p>
-                              <p class="accordianInfo"><li>Use Analogies and Examples That Connect to Students’ Everyday Knowledge</li></p>
-                              <p class="accordianInfo"><li>Ask Students to Reason on the Basis of Relevant Prior Knowledge</li></p>
-                            </ul>
-                          </div>
-                          <input type="checkbox" id="accordion7" class="hidecontent"/>
-                          <label for="accordion7">Methods to Address Insufficient Prior Knowledge</label>
-                          <div class="content hidecontent" style="padding-top: 0px;">
-                            <ul>
-                              <p class="accordianInfo"><li>Identify the Prior Knowledge You Expect Students to Have</li></p>
-                              <p class="accordianInfo"><li>Remediate Insufficient Prerequisite Knowledge</li></p>
-                            </ul>
-                          </div>
-                          <input type="checkbox" id="accordion8" class="hidecontent"/>
-                          <label for="accordion8">Methods to Help Students Recognize Inappropriate Prior Knowledge</label>
-                          <div class="content hidecontent" style="padding-top: 0px;">
-                            <ul>
-                              <p class="accordianInfo"><li>Highlight Conditions of Applicability</li></p>
-                              <p class="accordianInfo"><li>Provide Heuristics to Help Students Avoid Inappropriate Application of Knowledge</li></p>
-                              <p class="accordianInfo"><li>Explicitly Identify Discipline-Specific Conventions</li></p>
-                              <p class="accordianInfo"><li>Show Where Analogies Break Down</li></p>
-                            </ul>
-                          </div>
-                          <input type="checkbox" id="accordion9" class="hidecontent"/>
-                          <label for="accordion9">Methods to Correct Inaccurate Knowledge</label>
-                          <div class="content hidecontent" style="padding-top: 0px;">
-                            <ul>
-                              <p class="accordianInfo"><li>Ask Students to Make and Test Predictions</li></p>
-                              <p class="accordianInfo"><li>Ask Students to Justify Their Reasoning</li></p>
-                              <p class="accordianInfo"><li>Provide Multiple Opportunities for Students to Use Accurate Knowledge</li></p>
-                              <p class="accordianInfo"><li>Allow Sufficient Time</li></p>
-                            </ul>
-                          </div>
                       </div>
-                      <br/>
-                      
+                      <div id="myaccordion">
+                        <input
+                          type="checkbox"
+                          id="accordion1"
+                          class="hidecontent"
+                        />
+                        <label for="accordion1"
+                          >Activating Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo"><li>Generation</li></p>
+                            <p class="accordianInfo">
+                              <li>Connect to other courses</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Connect within your own course</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Analogies & Examples</li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion2"
+                          class="hidecontent"
+                        />
+                        <label for="accordion2"
+                          >Accurate but Insufficient Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>
+                                In order to find out what insufficient knowledge
+                                looks like, map out sufficient knowledges and
+                                identify knowledge gaps.
+                              </li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion3"
+                          class="hidecontent"
+                        />
+                        <label for="accordion3"
+                          >Inappropriate Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>
+                                Some knowledge is not universal among fields.
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                For example, writing styles and rules are
+                                different between fields.
+                              </li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion4"
+                          class="hidecontent"
+                        />
+                        <label for="accordion4"
+                          >Inaccurate Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>Content for Fourth Accordion.</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Content for Fourth Accordion.</li>
+                            </p>
+                          </ul>
+                        </div>
+                      </div>
+                      <br />
+                      <div id="myaccordion">
+                        <input
+                          type="checkbox"
+                          id="accordion11"
+                          class="hidecontent"
+                        />
+                        <label for="accordion11" style="padding: 0px"
+                          ><li>
+                            WHAT STRATEGIES DOES THE RESEARCH SUGGEST?
+                          </li></label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>Mentioned Below</li>
+                            </p>
+                          </ul>
+                        </div>
+                      </div>
+                      <div id="myaccordion">
+                        <input
+                          type="checkbox"
+                          id="accordion5"
+                          class="hidecontent"
+                        />
+                        <label for="accordion5"
+                          >Methods to Gauge the Extent and Nature of Students’
+                          Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>Talk to Colleagues</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Administer a Diagnostic Assessment</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Have Students Assess Their Own Prior Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Use Brainstorming to Reveal Prior Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Assign a Concept Map Activity</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Look for Patterns of Error in Student Work
+                              </li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion6"
+                          class="hidecontent"
+                        />
+                        <label for="accordion6"
+                          >Methods to Activate Accurate Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>
+                                Use Exercises to Generate Students’ Prior
+                                Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Explicitly Link New Material to Knowledge from
+                                Previous Courses
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Explicitly Link New Material to Prior Knowledge
+                                from Your Own Course
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Use Analogies and Examples That Connect to
+                                Students’ Everyday Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Ask Students to Reason on the Basis of Relevant
+                                Prior Knowledge
+                              </li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion7"
+                          class="hidecontent"
+                        />
+                        <label for="accordion7"
+                          >Methods to Address Insufficient Prior
+                          Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>
+                                Identify the Prior Knowledge You Expect Students
+                                to Have
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Remediate Insufficient Prerequisite Knowledge
+                              </li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion8"
+                          class="hidecontent"
+                        />
+                        <label for="accordion8"
+                          >Methods to Help Students Recognize Inappropriate
+                          Prior Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>Highlight Conditions of Applicability</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Provide Heuristics to Help Students Avoid
+                                Inappropriate Application of Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Explicitly Identify Discipline-Specific
+                                Conventions
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Show Where Analogies Break Down</li>
+                            </p>
+                          </ul>
+                        </div>
+                        <input
+                          type="checkbox"
+                          id="accordion9"
+                          class="hidecontent"
+                        />
+                        <label for="accordion9"
+                          >Methods to Correct Inaccurate Knowledge</label
+                        >
+                        <div
+                          class="content hidecontent"
+                          style="padding-top: 0px"
+                        >
+                          <ul>
+                            <p class="accordianInfo">
+                              <li>Ask Students to Make and Test Predictions</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Ask Students to Justify Their Reasoning</li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>
+                                Provide Multiple Opportunities for Students to
+                                Use Accurate Knowledge
+                              </li>
+                            </p>
+                            <p class="accordianInfo">
+                              <li>Allow Sufficient Time</li>
+                            </p>
+                          </ul>
+                        </div>
+                      </div>
+                      <br />
                     </ul>
-                    <button style="cursor: pointer;
-                      border: none;
-                      background-color: transparent;
-                      font-size: 1.5em;
-                      padding-top: 2em;
-                      "><a href="index.html" style="color: #0f33ff;">Back <span class="btn-background"></span></a>
-                      </button>
-                    <br/><br/><br/><br/>
-                      
-                    
+                    <button
+                      style="
+                        cursor: pointer;
+                        border: none;
+                        background-color: transparent;
+                        font-size: 1.5em;
+                        padding-top: 2em;
+                      "
+                    >
+                      <a href="index.html" style="color: #0f33ff"
+                        >Back <span class="btn-background"></span
+                      ></a>
+                    </button>
+                    <br /><br /><br /><br />
                   </div>
                 </div>
               </li>
@@ -191,4 +405,5 @@
         </div>
       </div>
     </div>
-</body>
+  </body>
+</html>
