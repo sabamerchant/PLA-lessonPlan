@@ -54,7 +54,7 @@ $( document ).ready(function() {
   $('.cta').click(function(){
     var curActive = $('.side-nav').find('.is-active'),
         curPos = $('.side-nav').children().index(curActive),
-        lastItem = $('.side-nav').children().length - 4,
+        lastItem = $('.side-nav').children().length - 5,
         nextPos = lastItem;
 
     updateNavs(nextPos);
@@ -62,16 +62,16 @@ $( document ).ready(function() {
 
   });
 
-  $('.readingOutline').click(function(){
-    var curActive = $('.side-nav').find('.is-active'),
-        curPos = $('.side-nav').children().index(curActive),
-        lastItem = $('.side-nav').children().length - 1,
-        nextPos = lastItem;
+  // $('.readingOutline').click(function(){
+  //   var curActive = $('.side-nav').find('.is-active'),
+  //       curPos = $('.side-nav').children().index(curActive),
+  //       lastItem = $('.side-nav').children().length - 1,
+  //       nextPos = lastItem;
 
-    updateNavs(nextPos);
-    updateContent(curPos, nextPos, lastItem);
+  //   updateNavs(nextPos);
+  //   updateContent(curPos, nextPos, lastItem);
 
-  });
+  // });
 
   // swipe support for touch devices
   var targetElement = document.getElementById('viewport'),
